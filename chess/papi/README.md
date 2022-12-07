@@ -12,10 +12,10 @@ cd papi
 curl -O http://www.echecs.asso.fr/Papi/Papi3.3.6.zip
 unzip Papi3.3.6.zip && rm Papi3.3.6.zip
 
-Initialisation de l'environement
+# Initialisation de l'environement
 WINEARCH=win32 WINEPREFIX=~/.wine_p winecfg
 
-Installation des librairies
+# Installation des librairies
 
 WINEARCH=win32 WINEPREFIX=~/.wine_p winetricks -q --unattended dotnet20 dotnet40 mdac28 jet40
 ```
