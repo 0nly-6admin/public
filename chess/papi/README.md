@@ -6,6 +6,7 @@ Installer wine, ensuite :
 2) Copier le script de lancement et d'update
 3) Si vous voulez utiliser la base offline, faire une mise-à-jour de la base
 
+## Installation
 ```bash
 mkdir papi
 cd papi
