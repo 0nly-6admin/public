@@ -23,7 +23,7 @@ Linux, prérequis :
 - sqsh
 ```bash
 apt search sqsh && apt install sqsh -y
-wget https://github.com/GillesHorn/public/blob/main/chess/search-player.sh
+wget https://raw.githubusercontent.com/GillesHorn/public/main/chess/search-player.sh
 chmod +x search-player.sh
 ./search-player.sh -h
 ```
